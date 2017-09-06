@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\M1024375\AppData\Local\Temp\testng-eclipse-1835360890\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidateUserName, UserName, enterUserName, selenium028)">testWordPress(ValidateUserName, UserName, enterUserName, selenium028)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(Verifysharing, sharing, verifySharing, NA)">testWordPress(Verifysharing, sharing, verifySharing, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)">testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(openWebpage, open, openBrowser, firefox)">testWordPress(openWebpage, open, openBrowser, firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(verifyPreview, Preview, verifyPreview, NA)">testWordPress(verifyPreview, Preview, verifyPreview, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickReader, Reader, clickReader, NA)">testWordPress(ClickReader, Reader, clickReader, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(AddTag1, Tag1, addTags, Edureka )">testWordPress(AddTag1, Tag1, addTags, Edureka )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidateLogin, Login, clickLogin, NA)">testWordPress(ValidateLogin, Login, clickLogin, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickMysite, MySite, clickmySite, NA)">testWordPress(ClickMysite, MySite, clickmySite, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(EnterTitle, EditorTitle, enterTitle, Edureka Testing)">testWordPress(EnterTitle, EditorTitle, enterTitle, Edureka Testing)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickonPostFormat, PostFormat, clickOnPostFormat, NA)">testWordPress(ClickonPostFormat, PostFormat, clickOnPostFormat, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(setFeaturedImage, Image, setImage, NA)">testWordPress(setFeaturedImage, Image, setImage, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA)">testWordPress(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidateLogin, Login, clickLogin, NA)">testWordPress(ValidateLogin, Login, clickLogin, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(uncheckSharing, unchecksharing, uncheckSharing, NA)">testWordPress(uncheckSharing, unchecksharing, uncheckSharing, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(Logout, Logout, Logout, NA)">testWordPress(Logout, Logout, Logout, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickAddPost, AddPost, clickAddPost, NA)">testWordPress(ClickAddPost, AddPost, clickAddPost, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(openWebpage, open, openBrowser, firefox)">testWordPress(openWebpage, open, openBrowser, firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)">testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidateUserName, UserName, enterUserName, selenium027)">testWordPress(ValidateUserName, UserName, enterUserName, selenium027)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)">testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(VerifyPostLink, PostLink, verifyPostLink, NA)">testWordPress(VerifyPostLink, PostLink, verifyPostLink, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)">testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.wordpress.testEngine.WordPressTest" hash-for-method="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wordpress.testEngine.WordPressTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">
+                  </a> <!-- testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidateUserName, UserName, enterUserName, selenium028)">
+                  </a> <!-- testWordPress(ValidateUserName, UserName, enterUserName, selenium028) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidateUserName, UserName, enterUserName, selenium028)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">
+                  </a> <!-- testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(Verifysharing, sharing, verifySharing, NA)">
+                  </a> <!-- testWordPress(Verifysharing, sharing, verifySharing, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(Verifysharing, sharing, verifySharing, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">
+                  </a> <!-- testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)">
+                  </a> <!-- testWordPress(ValidatePassword, Password, enterPassWord, selenium123456) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidatePassword, Password, enterPassWord, selenium123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(openWebpage, open, openBrowser, firefox)">
+                  </a> <!-- testWordPress(openWebpage, open, openBrowser, firefox) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(openWebpage, open, openBrowser, firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(verifyPreview, Preview, verifyPreview, NA)">
+                  </a> <!-- testWordPress(verifyPreview, Preview, verifyPreview, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(verifyPreview, Preview, verifyPreview, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickReader, Reader, clickReader, NA)">
+                  </a> <!-- testWordPress(ClickReader, Reader, clickReader, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickReader, Reader, clickReader, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(AddTag1, Tag1, addTags, Edureka )">
+                  </a> <!-- testWordPress(AddTag1, Tag1, addTags, Edureka ) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(AddTag1, Tag1, addTags, Edureka )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidateLogin, Login, clickLogin, NA)">
+                  </a> <!-- testWordPress(ValidateLogin, Login, clickLogin, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidateLogin, Login, clickLogin, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickMysite, MySite, clickmySite, NA)">
+                  </a> <!-- testWordPress(ClickMysite, MySite, clickmySite, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickMysite, MySite, clickmySite, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(EnterTitle, EditorTitle, enterTitle, Edureka Testing)">
+                  </a> <!-- testWordPress(EnterTitle, EditorTitle, enterTitle, Edureka Testing) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(EnterTitle, EditorTitle, enterTitle, Edureka Testing)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickonPostFormat, PostFormat, clickOnPostFormat, NA)">
+                  </a> <!-- testWordPress(ClickonPostFormat, PostFormat, clickOnPostFormat, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickonPostFormat, PostFormat, clickOnPostFormat, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(setFeaturedImage, Image, setImage, NA)">
+                  </a> <!-- testWordPress(setFeaturedImage, Image, setImage, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(setFeaturedImage, Image, setImage, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA)">
+                  </a> <!-- testWordPress(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidateLogin, Login, clickLogin, NA)">
+                  </a> <!-- testWordPress(ValidateLogin, Login, clickLogin, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidateLogin, Login, clickLogin, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">
+                  </a> <!-- testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(uncheckSharing, unchecksharing, uncheckSharing, NA)">
+                  </a> <!-- testWordPress(uncheckSharing, unchecksharing, uncheckSharing, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(uncheckSharing, unchecksharing, uncheckSharing, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(Logout, Logout, Logout, NA)">
+                  </a> <!-- testWordPress(Logout, Logout, Logout, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(Logout, Logout, Logout, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickAddPost, AddPost, clickAddPost, NA)">
+                  </a> <!-- testWordPress(ClickAddPost, AddPost, clickAddPost, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickAddPost, AddPost, clickAddPost, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)">
+                  </a> <!-- testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(openWebpage, open, openBrowser, firefox)">
+                  </a> <!-- testWordPress(openWebpage, open, openBrowser, firefox) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(openWebpage, open, openBrowser, firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)">
+                  </a> <!-- testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidateUserName, UserName, enterUserName, selenium027)">
+                  </a> <!-- testWordPress(ValidateUserName, UserName, enterUserName, selenium027) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidateUserName, UserName, enterUserName, selenium027)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)">
+                  </a> <!-- testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(VerifyPostLink, PostLink, verifyPostLink, NA)">
+                  </a> <!-- testWordPress(VerifyPostLink, PostLink, verifyPostLink, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(VerifyPostLink, PostLink, verifyPostLink, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)">
+                  </a> <!-- testWordPress(ValidatePassword, Password, enterPassWord, selenium123456) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ValidatePassword, Password, enterPassWord, selenium123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)">
+                  </a> <!-- testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA) -->
+                  <span class="method-name">testWordPress</span>
+                  <span class="parameters">(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\M1024375\AppData\Local\Temp\testng-eclipse-1835360890\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wordpress.testEngine.WordPressTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testWordPress')
+data.setCell(0, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(0, 3, 54298);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testWordPress')
+data.setCell(1, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(1, 3, 42095);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testWordPress')
+data.setCell(2, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(2, 3, 20745);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testWordPress')
+data.setCell(3, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(3, 3, 12372);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testWordPress')
+data.setCell(4, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(4, 3, 12281);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testWordPress')
+data.setCell(5, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(5, 3, 8344);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testWordPress')
+data.setCell(6, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(6, 3, 8302);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testWordPress')
+data.setCell(7, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(7, 3, 7569);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testWordPress')
+data.setCell(8, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(8, 3, 5814);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testWordPress')
+data.setCell(9, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(9, 3, 4180);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testWordPress')
+data.setCell(10, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(10, 3, 2516);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testWordPress')
+data.setCell(11, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(11, 3, 2485);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testWordPress')
+data.setCell(12, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(12, 3, 1891);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testWordPress')
+data.setCell(13, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(13, 3, 1509);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testWordPress')
+data.setCell(14, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(14, 3, 1393);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testWordPress')
+data.setCell(15, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(15, 3, 1080);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testWordPress')
+data.setCell(16, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(16, 3, 888);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testWordPress')
+data.setCell(17, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(17, 3, 684);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testWordPress')
+data.setCell(18, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(18, 3, 658);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testWordPress')
+data.setCell(19, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(19, 3, 596);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testWordPress')
+data.setCell(20, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(20, 3, 575);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testWordPress')
+data.setCell(21, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(21, 3, 475);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testWordPress')
+data.setCell(22, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(22, 3, 472);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testWordPress')
+data.setCell(23, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(23, 3, 468);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testWordPress')
+data.setCell(24, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(24, 3, 393);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testWordPress')
+data.setCell(25, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(25, 3, 382);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testWordPress')
+data.setCell(26, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(26, 3, 377);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testWordPress')
+data.setCell(27, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(27, 3, 307);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testWordPress')
+data.setCell(28, 2, 'com.wordpress.testEngine.WordPressTest')
+data.setCell(28, 3, 1);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wordpress.testEngine.WordPressTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">startBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(openWebpage, open, openBrowser, firefox)</span>
+                <span class="method-start">5258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidateUserName, UserName, enterUserName, selenium027)</span>
+                <span class="method-start">7152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)</span>
+                <span class="method-start">14723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidateLogin, Login, clickLogin, NA)</span>
+                <span class="method-start">15321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickReader, Reader, clickReader, NA)</span>
+                <span class="method-start">57418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickMysite, MySite, clickmySite, NA)</span>
+                <span class="method-start">78165 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(VerifyPostLink, PostLink, verifyPostLink, NA)</span>
+                <span class="method-start">78639 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickAddPost, AddPost, clickAddPost, NA)</span>
+                <span class="method-start">84455 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(EnterTitle, EditorTitle, enterTitle, Edureka Testing)</span>
+                <span class="method-start">96828 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                <span class="method-start">97717 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                <span class="method-start">110002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</span>
+                <span class="method-start">112519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(AddTag1, Tag1, addTags, Edureka )</span>
+                <span class="method-start">112898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                <span class="method-start">113979 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                <span class="method-start">122282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickOnCategoriesAndTags, AddTags, clickOnCategoriesandTags, NA)</span>
+                <span class="method-start">122859 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickonPostFormat, PostFormat, clickOnPostFormat, NA)</span>
+                <span class="method-start">124253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(validateLinkRadiobutton, LinkRadiobutton, selectLinkRadiobutton, NA)</span>
+                <span class="method-start">124729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClickPreviewButton, PreviewButton, clickPreviewButton, NA)</span>
+                <span class="method-start">125198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(verifyPreview, Preview, verifyPreview, NA)</span>
+                <span class="method-start">133543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ClosePreviewPopUp, ClosePopup, closePreviewPoup, NA)</span>
+                <span class="method-start">135057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(Verifysharing, sharing, verifySharing, NA)</span>
+                <span class="method-start">137543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(uncheckSharing, unchecksharing, uncheckSharing, NA)</span>
+                <span class="method-start">137926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(setFeaturedImage, Image, setImage, NA)</span>
+                <span class="method-start">138584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(Logout, Logout, Logout, NA)</span>
+                <span class="method-start">138586 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(openWebpage, open, openBrowser, firefox)</span>
+                <span class="method-start">192884 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidateUserName, UserName, enterUserName, selenium028)</span>
+                <span class="method-start">193570 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidatePassword, Password, enterPassWord, selenium123456)</span>
+                <span class="method-start">193878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWordPress(ValidateLogin, Login, clickLogin, NA)</span>
+                <span class="method-start">194271 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">198453 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

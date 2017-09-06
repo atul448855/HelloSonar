@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="229997" started-at="2017-05-22T11:39:16Z" finished-at="2017-05-22T11:43:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="229997" started-at="2017-05-22T11:39:16Z" finished-at="2017-05-22T11:43:06Z">
+      <class name="com.wordpress.testEngine.WordPressTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="startBrowser" is-config="true" duration-ms="4323" started-at="2017-05-22T17:09:16Z" finished-at="2017-05-22T17:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="1891" started-at="2017-05-22T17:09:21Z" data-provider="test" finished-at="2017-05-22T17:09:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[openWebpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[open]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="7569" started-at="2017-05-22T17:09:23Z" data-provider="test" finished-at="2017-05-22T17:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidateUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enterUserName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium027]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="596" started-at="2017-05-22T17:09:31Z" data-provider="test" finished-at="2017-05-22T17:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidatePassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enterPassWord]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="42095" started-at="2017-05-22T17:09:31Z" data-provider="test" finished-at="2017-05-22T17:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidateLogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickLogin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="20745" started-at="2017-05-22T17:10:13Z" data-provider="test" finished-at="2017-05-22T17:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickReader]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Reader]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickReader]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="472" started-at="2017-05-22T17:10:34Z" data-provider="test" finished-at="2017-05-22T17:10:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickMysite]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MySite]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickmySite]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="5814" started-at="2017-05-22T17:10:34Z" data-provider="test" finished-at="2017-05-22T17:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[VerifyPostLink]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PostLink]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[verifyPostLink]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="12372" started-at="2017-05-22T17:10:40Z" data-provider="test" finished-at="2017-05-22T17:10:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickAddPost]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddPost]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickAddPost]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="888" started-at="2017-05-22T17:10:53Z" data-provider="test" finished-at="2017-05-22T17:10:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EnterTitle]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EditorTitle]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enterTitle]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edureka Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="12281" started-at="2017-05-22T17:10:54Z" data-provider="test" finished-at="2017-05-22T17:11:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickPreviewButton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PreviewButton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickPreviewButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="2516" started-at="2017-05-22T17:11:06Z" data-provider="test" finished-at="2017-05-22T17:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClosePreviewPopUp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ClosePopup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[closePreviewPoup]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="377" started-at="2017-05-22T17:11:08Z" data-provider="test" finished-at="2017-05-22T17:11:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickOnCategoriesAndTags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddTags]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickOnCategoriesandTags]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="1080" started-at="2017-05-22T17:11:09Z" data-provider="test" finished-at="2017-05-22T17:11:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AddTag1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tag1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[addTags]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Edureka ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="8302" started-at="2017-05-22T17:11:10Z" data-provider="test" finished-at="2017-05-22T17:11:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickPreviewButton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PreviewButton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickPreviewButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="575" started-at="2017-05-22T17:11:18Z" data-provider="test" finished-at="2017-05-22T17:11:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClosePreviewPopUp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ClosePopup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[closePreviewPoup]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="1393" started-at="2017-05-22T17:11:19Z" data-provider="test" finished-at="2017-05-22T17:11:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickOnCategoriesAndTags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AddTags]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickOnCategoriesandTags]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="475" started-at="2017-05-22T17:11:20Z" data-provider="test" finished-at="2017-05-22T17:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickonPostFormat]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PostFormat]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickOnPostFormat]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="468" started-at="2017-05-22T17:11:21Z" data-provider="test" finished-at="2017-05-22T17:11:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[validateLinkRadiobutton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LinkRadiobutton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[selectLinkRadiobutton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="8344" started-at="2017-05-22T17:11:21Z" data-provider="test" finished-at="2017-05-22T17:11:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClickPreviewButton]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PreviewButton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickPreviewButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="1509" started-at="2017-05-22T17:11:29Z" data-provider="test" finished-at="2017-05-22T17:11:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[verifyPreview]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Preview]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[verifyPreview]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="2485" started-at="2017-05-22T17:11:31Z" data-provider="test" finished-at="2017-05-22T17:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ClosePreviewPopUp]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ClosePopup]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[closePreviewPoup]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="382" started-at="2017-05-22T17:11:33Z" data-provider="test" finished-at="2017-05-22T17:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verifysharing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[verifySharing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="658" started-at="2017-05-22T17:11:34Z" data-provider="test" finished-at="2017-05-22T17:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uncheckSharing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[unchecksharing]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[uncheckSharing]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="1" started-at="2017-05-22T17:11:34Z" data-provider="test" finished-at="2017-05-22T17:11:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[setFeaturedImage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Image]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[setImage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="54298" started-at="2017-05-22T17:11:34Z" data-provider="test" finished-at="2017-05-22T17:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Logout]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Logout]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Logout]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="684" started-at="2017-05-22T17:12:29Z" data-provider="test" finished-at="2017-05-22T17:12:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[openWebpage]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[open]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="307" started-at="2017-05-22T17:12:29Z" data-provider="test" finished-at="2017-05-22T17:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidateUserName]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UserName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enterUserName]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium028]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="393" started-at="2017-05-22T17:12:30Z" data-provider="test" finished-at="2017-05-22T17:12:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidatePassword]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[enterPassWord]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[selenium123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="testWordPress(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="testWordPress" duration-ms="4180" started-at="2017-05-22T17:12:30Z" data-provider="test" finished-at="2017-05-22T17:12:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ValidateLogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Login]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[clickLogin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWordPress -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.wordpress.testEngine.WordPressTest@3532ec19]" name="closeBrowser" is-config="true" duration-ms="31544" started-at="2017-05-22T17:12:34Z" finished-at="2017-05-22T17:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.wordpress.testEngine.WordPressTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
